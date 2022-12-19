@@ -1,0 +1,28 @@
+{
+  "name": "cc-test-design-system",
+  "version": "1.0.9",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roysbailey/large-scale-react-design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roysbailey/large-scale-react-design-system/issues"
+  },
+  "homepage": "https://github.com/roysbailey/large-scale-react-design-system#readme",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "del dist && babel components --out-dir dist --copy-files"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
